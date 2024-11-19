@@ -56,17 +56,20 @@ On effectuera aussi une comparaison avec une version très simplifiée du voyage
 
 ## Les tracés
 
+```
+>>> import RR
+>>> RR.calcul_dis_tau(T=3600*24*1000,g=9.81,pasdelta=3600*24*100)
+
 Résultats numériques
 
-```
 Accélération ressentie : 9.81 m/s^2
 Temps t final: 10.95 années (4000.00 jours)
 Temps tau final: 6.83 années (2493.39 jours)
 Vitesse maximale atteinte : 0.943c
 Distance atteinte : 3.87 années-lumière (1414.01 jours-lumière)
-```
 
 Graphiques
+```
 
 ## Les informations
 
