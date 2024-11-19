@@ -58,11 +58,13 @@ On effectuera aussi une comparaison avec une version très simplifiée du voyage
 
 Résultats numériques
 
+```
 Accélération ressentie : 9.81 m/s^2
 Temps t final: 10.95 années (4000.00 jours)
 Temps tau final: 6.83 années (2493.49 jours)
 Vitesse maximale atteinte : 0.943c
 Distance atteinte : 3.87 années-lumière (1414.01 jours-lumière)
+```
 
 Graphiques
 
