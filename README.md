@@ -84,6 +84,8 @@ Le programme [RR.py](RR.py)
 
 Reproduction de l'exemple avec **Proxima Centauri** sur la page [https://fr.wikipedia.org/wiki/Voyage_relativiste](https://fr.wikipedia.org/wiki/Voyage_relativiste)
 
+![image](https://github.com/user-attachments/assets/d8b4cbaa-4344-4021-b3ff-b17b817fb569)
+
 ```
 >>> import RR
 >>> RR.calcul_dis_tau(T=3600*24*365.25*11.8/4,g=10,pasdelta=3600*24*100)
