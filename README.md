@@ -71,6 +71,15 @@ Distance atteinte : 3.87 années-lumière (1414.01 jours-lumière)
 Graphiques
 ```
 
+![Figure_1](https://github.com/user-attachments/assets/d5eaa4ab-e95b-48e7-9aa5-632f8e29282a)
+
+![Figure_2](https://github.com/user-attachments/assets/b07f4b59-ac76-4579-b616-88e5f37482d4)
+
+![Figure_3](https://github.com/user-attachments/assets/842f9e27-13b9-4540-aa1d-b7f4adf91bf9)
+
+![Figure_4](https://github.com/user-attachments/assets/bf138780-ba55-45a1-9761-3c78a3d9385f)
+
+
 ## Les informations
 
 Le notebook [RR.ipynb](RR.ipynb)
