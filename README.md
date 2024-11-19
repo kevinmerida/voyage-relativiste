@@ -82,7 +82,7 @@ Le notebook [RR.ipynb](RR.ipynb)
 
 Le programme [RR.py](RR.py)
 
-Reproduction de l'exemple avec Alpha Centaury sur la page [https://fr.wikipedia.org/wiki/Voyage_relativiste](https://fr.wikipedia.org/wiki/Voyage_relativiste)
+Reproduction de l'exemple avec **Proxima Centauri** sur la page [https://fr.wikipedia.org/wiki/Voyage_relativiste](https://fr.wikipedia.org/wiki/Voyage_relativiste)
 
 ```
 >>> import RR
