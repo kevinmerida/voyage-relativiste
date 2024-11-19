@@ -76,3 +76,8 @@ Graphiques
 
 ![Figure_4](https://github.com/user-attachments/assets/815e4079-7ad4-4bb9-bd02-01a9151be3a3)
 
+## Les informations
+
+Le notebook [RR.ipynb](RR.ipynb)
+
+Le programme [RR.py](RR.py)
