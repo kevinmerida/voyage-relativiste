@@ -81,3 +81,18 @@ Graphiques
 Le notebook [RR.ipynb](RR.ipynb)
 
 Le programme [RR.py](RR.py)
+
+Reproduction de l'exemple avec Alpha Centaury
+
+```
+>>> import RR
+>>> RR.calcul_dis_tau(T=3600*24*365.25*11.8/4,g=10,pasdelta=3600*24*100)
+
+Résultats numériques
+
+Accélération ressentie : 10.00 m/s^2
+Temps t final: 11.80 années (4309.95 jours)
+Temps tau final: 7.03 années (2569.49 jours)
+Vitesse maximale atteinte : 0.952c
+Distance atteinte : 4.30 années-lumière (1569.99 jours-lumière)
+```
