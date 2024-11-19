@@ -36,20 +36,20 @@ def calcul_dis_tau(T=3600*24*1000, g=9.81, pasdelta=3600*24*100):
 
     # 3*T<t<4*T
     ts = np.arange(0, T+pas, pas)
-    dtt = np.append(dtt, d_tau_sur_dt(g, T-ts))
-    vit = np.append(vit, -vitesse(g, T-ts))
+    dtt = np.array(np.append(dtt, d_tau_sur_dt(g, T-ts)))
+    vit = np.array(np.append(vit, -vitesse(g, T-ts)))
     t = np.append(t, 3*T+ts)
 
-    # intégration numérique
-    dis = pas*np.cumsum(vit)
-    tau = pas*np.cumsum(dtt)
+    # intégration numérique (méthode des trapèzes)
+    dis = np.concatenate(([0], pas*np.cumsum(vit[0:-1]+vit[1:])/2))
+    tau = np.concatenate(([0], pas*np.cumsum(dtt[0:-1]+dtt[1:])/2))
 
     # calculs en vitesse constante
     dis_max = np.max(dis)
     V = dis_max/(2*T)
     tau2 = t*np.sqrt(1-V**2)
-    vit2 = V*(t < 2*T)-V*(t >= 2*T)
-    dis2 = pas*np.cumsum(vit2)
+    vit2 = np.array(V*(t < 2*T)-V*(t >= 2*T))
+    dis2 = np.concatenate(([0], pas*np.cumsum(vit2[0:-1]+vit2[1:])/2))
 
     # calculs pour le tracé de tau à intervalles temporels réguliers
     deltat = np.arange(0, t[-1], pasdelta)
