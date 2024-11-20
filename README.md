@@ -1,5 +1,7 @@
 # Voyage relativiste
 
+La vidéo : https://www.youtube.com/watch?v=1jKPtu5m3DQ
+
 ## Le voyage
 
 Le voyage d'un astronaute se déroule dans un vaisseau spatial qui se déplace le long d'une droite. Dans un référentiel inertiel, éloigné de toute masse (pas de gravitation), le vaisseau a une vitesse initiale nulle à $t=0$ et on lui applique une force constante $F$ pendant une durée $T$. Ainsi, il accélère pour atteindre une vitesse maximale à $t=T$, puis on lui applique une force $-F$ opposée à la précedente pour $T<t<3T$. Donc sa vitesse diminue, s'annule à $t=2T$, puis prend une valeur maximale à $t=3T$, opposée à celle atteinte à $t=T$. Pour $3T<t<4T$, on applique enfin la même force $F$ qu'au départ, de sorte qu'il ralentisse, puis retrouve son point de départ avec une vitesse nulle à $t=4T$.
