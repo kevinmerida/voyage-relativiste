@@ -86,7 +86,7 @@ Graphiques
 
 Le notebook [RR.ipynb](RR.ipynb)
 
-Le programme [RR.py](RR.py)
+Le programme avec calcul numérique des intégrales [RR.py](RR.py)
 
 Le programme avec expression littérale des intégrales [RRI.py](RRI.py)
 
