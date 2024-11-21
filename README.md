@@ -88,6 +88,8 @@ Le notebook [RR.ipynb](RR.ipynb)
 
 Le programme [RR.py](RR.py)
 
+Le programme avec expression littérale des intégrales [RRI.py](RRI.py)
+
 Reproduction de l'exemple avec **Proxima Centauri** sur la page [https://fr.wikipedia.org/wiki/Voyage_relativiste](https://fr.wikipedia.org/wiki/Voyage_relativiste)
 
 ![image](https://github.com/user-attachments/assets/d8b4cbaa-4344-4021-b3ff-b17b817fb569)
