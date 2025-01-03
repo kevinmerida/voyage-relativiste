@@ -1,6 +1,8 @@
 # Voyage relativiste
 
-La vidéo : https://www.youtube.com/watch?v=1jKPtu5m3DQ
+## La vidéo
+
+https://www.youtube.com/watch?v=1jKPtu5m3DQ
 
 ## Le voyage
 
